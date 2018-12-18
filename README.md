@@ -1,7 +1,7 @@
 
 # terraform-google-cloud
 
-A run-once simple terraform setup for google cloud services.
+A run-once simple terraform setup for google cloud services. This script will create an admin project with a terraform remote state. This is a prerequisite to using any of the other scrips and examples in this repository.
 
 Adapted from this: https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform
 
