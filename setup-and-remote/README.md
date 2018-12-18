@@ -15,9 +15,8 @@ You must have the Google Cloud SDK gcloud command-line tool intalled and authori
 
 Export the following
 
-* `export TF_VAR_org_id=YOUR_ORG_ID`
-* `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`
-* `export TF_ADMIN=${USER}-terraform-admin`
-* `export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`
+* `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`             # see 'billing' tab to get this
+* `export TF_ADMIN=${USER}-terraform-admin`                           # use 'whoami' in cloud shell to get username
+* `export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`     # run  'gCloud info' in your terminal.
 
 
