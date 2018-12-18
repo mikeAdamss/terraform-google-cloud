@@ -8,11 +8,11 @@ Adapted from this: https://cloud.google.com/community/tutorials/managing-gcp-pro
 
 ## Usage
 
-All args are set via environmental variables. While you *could* pass the args in directly, the intention here is to allow for validation of all arguments - before provisioning.
+Export the following
 
-| Environment variable       | Default                           | Description
-| -------------------------- | --------------------------------- | -----------
-| GIT_WEBHOOK_SECRET         | None                              | The secret for authenticating incoming requests.
-| SLACK_WEBHOOK              | None                              | The endpoint for messaging to slack.
-| PORT                       | None                              | The listen and serve port.
-| PUBLIC_IP                  | None                              | The public IP address for accessing logs.
+`export TF_VAR_org_id=YOUR_ORG_ID`
+`export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`
+`export TF_ADMIN=${USER}-terraform-admin`
+`export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`
+
+
