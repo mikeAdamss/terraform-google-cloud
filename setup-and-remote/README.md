@@ -16,7 +16,7 @@ You must have the Google Cloud SDK gcloud command-line tool intalled and authori
 Export the following
 
 * `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`             
-Checl the 'billing' tab to get this info.
+Check the 'billing' tab to confirm your billing account ID.
 
 * `export TF_ADMIN=${USER}-terraform-admin`                           
 Run 'whoami' in cloud shell to confirm your username.
