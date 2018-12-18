@@ -10,20 +10,10 @@ Adapted from this: https://cloud.google.com/community/tutorials/managing-gcp-pro
 
 You must have the Google Cloud SDK gcloud command-line tool intalled and authorized to work with your account per the documentation, here: https://cloud.google.com/sdk/docs/authorizing
 
+You must be running python 2.7 (if using pyenv on mac, you can `pyenv install 2.7.8` to avoid clashes with macos python 2.7).
+
 
 ## Usage
 
-Export the following
-
-* `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`.             
-Check the 'billing' tab to confirm your billing account ID.
-
-* `export TF_ADMIN=${USER}-terraform-admin`.
-Recommendation only - you can use anything unique here.
-If you do take this approach you can run 'whoami' in the cloud shell to confirm your username.
-
-* `export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`.
-Run  'gCloud info' in your terminal to confirm your credentials path.
-
-
-
+* `chmod +x setup.sh`
+* ./setup.sh <username> <billing account ID> <path to credentials>
