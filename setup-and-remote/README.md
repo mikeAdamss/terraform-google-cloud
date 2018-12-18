@@ -16,4 +16,4 @@ You must be running python 2.7 (if using pyenv on mac, you can `pyenv install 2.
 ## Usage
 
 * `chmod +x setup.sh`
-* ./setup.sh <username> <billing account ID> <path to credentials>
+* `./setup.sh <username> <billing account ID> <path to credentials>`
