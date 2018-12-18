@@ -15,13 +15,14 @@ You must have the Google Cloud SDK gcloud command-line tool intalled and authori
 
 Export the following
 
-* `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`             
+* `export TF_VAR_billing_account=YOUR_BILLING_ACCOUNT_ID`.             
 Check the 'billing' tab to confirm your billing account ID.
 
-* `export TF_ADMIN=${USER}-terraform-admin`                           
-Run 'whoami' in cloud shell to confirm your username.
+* `export TF_ADMIN=${USER}-terraform-admin`.
+Recommendation only - you can use anything unique here.
+If you do take this approach you can run 'whoami' in the cloud shell to confirm your username.
 
-* `export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`
+* `export TF_CREDS=~/.config/gcloud/${USER}-terraform-admin.json`.
 Run  'gCloud info' in your terminal to confirm your credentials path.
 
 
