@@ -1,3 +1,8 @@
+
 # terraform-google-cloud
 
-Some simple terraform for provisioning services from google
+A run-once simple terraform setup for google cloud services.
+
+Adapted from this: https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform
+
+
