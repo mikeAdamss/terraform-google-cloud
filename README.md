@@ -11,4 +11,5 @@ Once you've run `/setup/setup.sh` you'll need to have the google credentials exp
 your environment to run terraform with any of the included terraform scripts.
 
 `GOOGLE_APPLICATION_CREDENTIALS` - i.e the path to your credentials json
+
 `GOOGLE_PROJECT` - your project name
